@@ -6,6 +6,7 @@ class Program
 {
   static void Main()
   {
-    Triangle.IdentifyTriangle(2, 2, 3);
+    var result = Triangle.IdentifyTriangle(2, 2, 3);
+    Console.WriteLine(result);
   }
 }

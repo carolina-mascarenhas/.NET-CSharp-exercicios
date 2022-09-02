@@ -12,7 +12,7 @@ public class Triangle
     }
     else if((xSide == ySide) || (xSide == zSide) || (ySide ==zSide))
     {
-      name = "Triângulo Isóscele";
+      name = "Triângulo Isósceles";
     }
     else
     {
