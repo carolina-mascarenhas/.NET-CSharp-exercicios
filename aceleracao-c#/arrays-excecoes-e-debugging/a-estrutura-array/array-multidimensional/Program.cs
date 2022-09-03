@@ -2,9 +2,10 @@
 
 // class PlayingWithArrays
 // {
-//   public static void muldiDimArrays()
+//   public static void Main()
 //   {
 //     int[,] multiDimensionalArray = { { 1, 2, 3 }, { 4, 5, 6 } };
+//     Console.WriteLine(multiDimensionalArray[1, 2]);
 //   }
 // }
 
@@ -13,17 +14,18 @@
 
 // class PlayingWithArrays
 // {
-//   public static void muldiDimArrays()
+//   public static void Main()
 //   {
 //     // Somente instanciamos o array mais externo neste primeiro passo
 //     // Repare que apenas o primeiro colchetes contém números
 //     int[][] jaggedArray = new int[4][];
 
 //     // Agora precisamos instanciar um novo array para cada posição do array mais externo
-//     jaggedArray[0] = new int[4] { 6, 6, 6, 6 };
-//     jaggedArray[1] = new int[3] { 6, 6, 6 };
-//     jaggedArray[2] = new int[5] { 6, 6, 6, 6, 6 };
-//     jaggedArray[3] = new int[2] { 6, 6 };
+//     jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
+//     jaggedArray[1] = new int[3] { 5, 6, 7 };
+//     jaggedArray[2] = new int[5] { 8, 9, 10, 11, 12 };
+//     jaggedArray[3] = new int[2] { 13, 14 };
+//     Console.WriteLine(jaggedArray[3][0]);
 //   }
 // }
 
